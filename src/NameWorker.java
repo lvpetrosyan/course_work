@@ -1,8 +1,8 @@
-public class nameWorker {
+public class NameWorker {
     private String name;
     private String lastName;
 
-    public nameWorker(String name, String lastName) {
+    public NameWorker(String name, String lastName) {
         this.name = name;
         this.lastName = lastName;
     }

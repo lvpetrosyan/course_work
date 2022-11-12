@@ -2,13 +2,13 @@ import java.util.Arrays;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class Employee {
-    private nameWorker fullName;
+    private NameWorker fullName;
     private int salary;
     private int workDepartmen;
     private static int counter = 1;
     private int id;
 
-    public Employee(nameWorker fullName, int workDepartmen, int salary) {
+    public Employee(NameWorker fullName, int workDepartmen, int salary) {
         this.fullName = fullName;
         this.workDepartmen = workDepartmen;
         id = counter++;
@@ -35,7 +35,7 @@ public class Employee {
         this.workDepartmen = workDepartmen;
     }
 
-    public nameWorker getFullName() {
+    public NameWorker getFullName() {
         return fullName;
     }
 
